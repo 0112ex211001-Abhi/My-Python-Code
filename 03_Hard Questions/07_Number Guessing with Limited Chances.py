@@ -1,0 +1,1 @@
+'''User gets only 5 attempts.'''
