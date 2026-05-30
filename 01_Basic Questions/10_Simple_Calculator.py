@@ -1,3 +1,6 @@
+""" I use AI for learning and understanding codes; 
+you should use AI too, as it makes learning and understanding easier."""
+
 num1 = int (input ("Enter first number: "))
 num2 = int (input ("Enter second number: "))
 
