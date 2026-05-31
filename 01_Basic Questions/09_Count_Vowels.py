@@ -26,3 +26,11 @@ def count_vowels(string):
 
 string = input ("Enter a string: ")
 print(count_vowels(string))
+
+
+# By using List Comprehension Method:
+
+s = input ("Enter your string: ")
+v = "aeiou"
+c = [char for char in s if char.lower() in v]
+print(len(c))
