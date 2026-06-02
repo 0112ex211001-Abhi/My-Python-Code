@@ -1,3 +1,7 @@
+""" I use AI for learning and understanding codes; 
+you should use AI too, as it makes learning and understanding easier."""
+
+
 # Count the frequency of each character in a string
 def count_frequency(s):
     frequency = {}

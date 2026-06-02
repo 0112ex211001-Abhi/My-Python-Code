@@ -1,3 +1,7 @@
+""" I use AI for learning and understanding codes; 
+you should use AI too, as it makes learning and understanding easier."""
+
+
 def add(x, y):
     return x + y
 
@@ -23,8 +27,8 @@ def calculator():
 
     while True:
         choice = input("Enter choice (1/2/3/4): ")
-
-        if choice in ['1', '2', '3', '4']:
+        op_list = ['1', '2', '3', '4']
+        if choice in op_list :
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
@@ -42,5 +46,6 @@ def calculator():
         next_calculation = input("Do you want to perform another calculation? (yes/no): ")
         if next_calculation.lower() != 'yes':
             break
+    print("Thank-You for using Calculator")
 if __name__ == "__main__":
     calculator()

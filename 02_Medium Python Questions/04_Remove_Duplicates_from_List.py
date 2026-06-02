@@ -1,3 +1,7 @@
+""" I use AI for learning and understanding codes; 
+you should use AI too, as it makes learning and understanding easier."""
+
+
 # Remove duplicates from list
 
 # Method 1: Using set()
