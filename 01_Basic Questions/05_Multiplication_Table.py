@@ -35,7 +35,7 @@ for line in Table(n):
 
 print(*Table(n), sep="\n")
 # '*' ye star phle list ko 5 X 1 = 55 X 2 = 105 X 3 = 15... kuch is tarike se todega 
-# aur fir 'sep="\n"' use seprate karke line by line 
+# aur fir 'sep="\n"' use seprate karke line by line store karega
 # aur print function print kardega 
 # 5 X 1 = 5
 # 5 X 2 = 10
